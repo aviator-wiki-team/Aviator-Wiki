@@ -1,0 +1,37 @@
+site_name: Aviator Wikipedia
+theme:
+    name: material
+    palette:
+        primary: light blue
+        accent: red
+    font:
+        text: Source Han Sans CN
+        code: IBM Plex Mono
+    language: zh
+    logo: img/logo.png
+    favicon: img/favicon.ico
+    features:
+        - navigation.expand
+        - navigation.tabs
+    icon:
+        repo: fontawesome/brands/github-alt
+ 
+markdown_extensions:
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+plugin:
+    - search:
+        lang: jp
+copyright: Copyright &copy; 2020 - 2021 Aviator-Wiki-Team
+repo_url: https://github.com/aviator-wiki-team/Aviator-Wiki
+repo_name: aviator-wiki-team/Aviator-Wiki
+extra:
+    social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aviator-wiki-team
+
+nav:
+    - 简介:
+        - 欢迎同学!: index.md
+        - 何为AviatorWiki: intro/what-is-aviator-wiki.md
