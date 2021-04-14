@@ -6,9 +6,9 @@
 
 如果喜欢这个项目，可以在GitHub上点个Star,帮助我们编辑这个项目中的文档,加入我们等等……还可以发布自己的文字和帮助我们推广项目哦。
 
-### Primary colors 主色
+## Material color palette 颜色主题
 
-> 默认为 `white`
+### Primary colors 主色
 
 点击色块可更换主题的主色
 
@@ -46,8 +46,6 @@
 </script>
 
 ### Accent colors 辅助色
-
-> 默认为 `red`
 
 点击色块更换主题的辅助色
 
