@@ -8,7 +8,7 @@ theme:
         text: Source Han Sans CN
         code: IBM Plex Mono
     language: zh
-    logo: img/logo.svg
+    logo: img/headicon.svg
     favicon: img/favicon.ico
     features:
         - navigation.expand
