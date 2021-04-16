@@ -2,7 +2,7 @@
 
 ### Primary colors 主色
 
-点击文字可更换主题的主色
+点击文字可更换主题的主色(默认Light Blue)
 
 <div id="color-button">
 <button data-md-color-primary="red">Red</button>
@@ -39,7 +39,7 @@
 
 ### Accent colors 辅助色
 
-点击文字更换主题的辅助色
+点击文字更换主题的辅助色（默认White）
 
 <div id="color-button">
 <button data-md-color-accent="red">Red</button>
