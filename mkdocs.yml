@@ -35,3 +35,5 @@ nav:
     - 简介:
         - 欢迎同学!: index.md
         - 何为AviatorWiki: intro/what-is-aviator-wiki.md
+    - 实验室:
+        - 颜色切换: lab/test-color.md
