@@ -44,3 +44,4 @@ extra_javascript:
   
 extra_css:
   - '_lib/css/extra.css?v=13'  
+  - '_lib/css/buttons.css'
