@@ -37,3 +37,10 @@ nav:
         - 何为AviatorWiki: intro/what-is-aviator-wiki.md
     - 实验室:
         - 颜色切换: lab/test-color.md
+
+extra_javascript:
+  - '_static/js/extra.js?v=16'
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+  
+extra_css:
+  - '_static/css/extra.css?v=13'  
