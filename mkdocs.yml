@@ -1,48 +1,72 @@
 site_name: Aviator Wikipedia
 theme:
-    name: material
-    palette:
-        primary: light blue
-        accent: red
-    font:
-        text: Source Han Sans CN
-        code: IBM Plex Mono
-    language: zh
-    logo: img/headicon.svg
-    favicon: img/favicon.ico
-    features:
-        - navigation.expand
-        - navigation.tabs
-    icon:
-        repo: fontawesome/brands/github-alt
- 
+  name: material
+  palette:
+    primary: light blue
+    accent: red
+  font:
+    text: Source Han Sans CN
+    code: IBM Plex Mono
+  language: zh
+  logo: img/headicon.svg
+  favicon: img/favicon.ico
+  features:
+    - navigation.expand
+    - navigation.tabs
+  icon:
+    repo: fontawesome/brands/github-alt
+
 markdown_extensions:
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.tabbed
 plugin:
-    - search:
-        lang: jp
+  - search:
+      lang: jp
 copyright: Copyright &copy; 2020 - 2021 Aviator-Wiki-Team
 repo_url: https://github.com/aviator-wiki-team/Aviator-Wiki
 repo_name: aviator-wiki-team/Aviator-Wiki
 extra:
-    social:
+  social:
     - icon: fontawesome/brands/github
       link: https://github.com/aviator-wiki-team
-    pagetime: 'on'
+  pagetime: "on"
 
 nav:
-    - 简介:
-        - 欢迎同学!: index.md
-        - 何为AviatorWiki: intro/what-is-aviator-wiki.md
-    - 实验室:
-        - 颜色切换: lab/test-color.md
+  - 简介:
+      - 欢迎同学!: index.md
+      - 何为AviatorWiki: intro/what-is-aviator-wiki.md
+  - 实验室:
+      - 颜色切换: lab/test-color.md
 
 extra_javascript:
-  - '_lib/js/extra.js?v=16'
-  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
-  
+  - "_lib/js/extra.js?v=16"
+  - "https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+
 extra_css:
-  - '_lib/css/extra.css?v=13'  
-  - '_lib/css/buttons.css'
+  - "_lib/css/extra.css?v=13"
+  - "_lib/css/buttons.css"
