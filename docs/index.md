@@ -8,14 +8,14 @@
 
 PS:有人建议我设置可以白天黑夜调节的，但是我觉得……既然Logo扔在这里了是吧，黑夜模式不太容易看清，各位同学如果有建议可以给我提PR，源文件都在img里。
 
-<figure>   <img src="http://flight-wiki.pyliubaolin.top/img/Logo.svg" width="400" loading=lazy />   <figcaption>LOGO For Aviator-Wiki,Not Team Logo.</figcaption> </figure>
+<figure>   <img src="https://aviator-wiki.eu.org/img/Logo.svg" width="400" loading=lazy />   <figcaption>LOGO For Aviator-Wiki,Not Team Logo.</figcaption> </figure>
 
 (以下为Logo授权内容)
 
 !!! important
 
     Aviator-Wiki Logo由Aviator-Wiki-Team制作.授权内容如下:
-
+    
     1. 欢迎各种形式的宣传活动使用本Logo.
     2. 本Logo所示字体均已取得相关授权（开源&已付费）
     3. 禁止任何人以本Wiki名义，在未经许可的情况下，出Wiki附属产品包括但不限于相关论坛,外饰等.
