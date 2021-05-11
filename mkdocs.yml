@@ -60,6 +60,8 @@ nav:
   - 简介:
       - 欢迎同学!: index.md
       - 何为AviatorWiki: intro/what-is-aviator-wiki.md
+  - 飞机百科:
+      - 简介: planes/index.md
   - 实验室:
       - 颜色切换: lab/test-color.md
 
