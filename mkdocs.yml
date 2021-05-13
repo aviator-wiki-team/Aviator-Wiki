@@ -64,8 +64,8 @@ nav:
       - 简介: planes/index.md
   - 实验室:
       - 颜色切换: lab/test-color.md
-    - 关于我们:
-        - 这个大家庭: team/index.md
+  - 关于我们:
+      - 这个大家庭: team/index.md
 
 extra_javascript:
   - "_lib/js/extra.js?v=16"
